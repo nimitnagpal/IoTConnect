@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login2"
+    tools:context="com.example.nimitnagpal.iotconnect.Login">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:textSize="25dp"
+        android:text="Welcome to IoT Connect!" />
+
+    <EditText
+        android:id="@+id/loginid"
+        android:layout_width="357dp"
+        android:layout_height="54dp"
+        android:layout_above="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:ems="10"
+        android:hint="Enter your Id here"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/loginid"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Enter Password here"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <Button
+        android:id="@+id/Btn_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:text="Login"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+

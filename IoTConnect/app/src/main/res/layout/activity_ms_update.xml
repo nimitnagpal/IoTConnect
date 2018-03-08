@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nimitnagpal.iotconnect.MsUpdate">
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="156dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/ms_enter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="Update Status"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <EditText
+        android:id="@+id/ms_enter"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="166dp"
+        android:ems="10"
+        android:hint="Enter Device-Id here"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="173dp" />
+</RelativeLayout>
